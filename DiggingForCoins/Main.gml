@@ -9,3 +9,9 @@ if random(10) >= 9 {
     DropItem(x, y, Item.Coin, 1)
     }
 }
+else {
+    Trace("No money for you... :(")
+}
+
+
+
