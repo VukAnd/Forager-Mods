@@ -12,7 +12,12 @@ if random(10) >= 9 {
     DropItem(x, y, Item.Coin, 1)
     coinAmount = coinAmount + coinAmountToDrop
     }
-    Trace("You got " + string(coinAmount) + " coin(s) from digging!")
+    
+    if (coinAmount == 1) {
+    Trace("You got 1 coin from digging!")
+    } else {
+    Trace("You got " + string(coinAmount) + " coins from digging!")
+    }
 }
 
 
