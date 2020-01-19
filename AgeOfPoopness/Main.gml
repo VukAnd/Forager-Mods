@@ -1,5 +1,6 @@
 #define Main
 Trace("Poop Mod loaded! I hope you know what you're doing.")
+Trace("Made by VukAnd12, idea by mickthebrick1")
 
 #define OnArrowHit(arrow, inst)
 GainItem(Item.Poop, 1)
