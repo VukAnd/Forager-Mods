@@ -1,4 +1,4 @@
-# Age of Poopness
+# Age of Poopness (experimental)
 (also known as The Poop Mod)
 
 It's a mod that gives you poop for doing things. That's it. That's the mod.
