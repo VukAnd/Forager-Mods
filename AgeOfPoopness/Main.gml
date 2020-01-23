@@ -36,6 +36,7 @@ GainItem(Item.Poop, 1)
 GainItem(Item.Poop, 1)
 
 #define OnNewGame()
+Trace("Disclaimer: This mod is experimental. It may corrupt your save file.")
 GainItem(Item.Poop, 1)
 
 #define OnPlayerDamage(dodge, damage)
