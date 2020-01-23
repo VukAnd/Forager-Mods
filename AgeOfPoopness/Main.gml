@@ -25,6 +25,9 @@ GainItem(Item.Poop, 1)
 
 #define OnLevelUp(level)
 GainItem(Item.Poop, level)
+  
+#define OnLoad()
+Trace("Disclaimer: This mod is experimental. It may corrupt your save file.")
 
 #define OnMobDeath(inst)
 GainItem(Item.Poop, 1)
@@ -33,7 +36,6 @@ GainItem(Item.Poop, 1)
 GainItem(Item.Poop, 1)
 
 #define OnNewGame()
-Trace("DISCLAIMER: I am not responsible for inventories full of poop. Here's one poop to start you off!")
 GainItem(Item.Poop, 1)
 
 #define OnPlayerDamage(dodge, damage)
