@@ -10,4 +10,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: 'Congratulations on making your first issue!'
-        pr-message: 'Congratulations on making your first pull request! If this is a mod feature, make sure things work first!'
+        pr-message: 'Congratulations on making your first pull request! If this pull request is a change to one of my mods, make sure things work first!'
