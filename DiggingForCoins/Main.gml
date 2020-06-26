@@ -5,7 +5,6 @@ Trace("The Digging for Coins mod has been loaded!")
 // actual digging for coins
 var coinAmount = 0
 var shovel = ToolSelected()
-Trace(shovel);
 if(shovel == 120){//BasicShovel
     var coinAmountToDrop = 1;
 }
